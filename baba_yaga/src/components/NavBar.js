@@ -1,6 +1,6 @@
 import React from "react";
 import {Link} from "react-router-dom"
-//доробити іконки
+//доробити іконки та підсвічення посилання
 function NavBar(){
     return(
         <ul>
