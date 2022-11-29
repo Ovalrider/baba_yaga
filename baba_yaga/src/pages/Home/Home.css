@@ -1,0 +1,45 @@
+.home-body {
+    position: absolute;
+    width: 1920px;
+    height: 1080px;
+    left: 0px;
+    top: 0px;
+
+    background: url(../../assets/pics/home_background.jpg);
+}
+
+.baba {
+    position: absolute;
+    width: 710px;
+    height: 931px;
+    left: 0px;
+    top: 147px;
+}
+
+.main-rectangle {
+    position: absolute;
+    width: 619px;
+    height: 381px;
+    left: 566px;
+    top: 301px;
+
+    background: rgba(25, 41, 38, 0.35);
+    border-radius: 20px;
+}
+
+.main-caption {
+    position: absolute;
+    width: 559px;
+    height: 244px;
+    left: 596px;
+    top: 360px;
+
+    font-family: 'Tsarevich old', serif; /* remove generic typeface when imported figma typeface */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px; /* 100 for figma typeface */
+    line-height: 100px;
+    text-align: center;
+
+    color: #D7A43B;
+}
