@@ -8,8 +8,8 @@ function Home(){
         <div className="home_body">
             <NavBar/>
             <div className="big_yellow_text">
-            <h1>Підкресліть свою індивідуальність та чарівність</h1>
-            <img src={babayaga} className="baba_yaga"/>
+                <h1>Підкресліть свою індивідуальність та чарівність</h1>
+                <img src={babayaga} className="baba_yaga"/>
             </div>
         </div>
     )
