@@ -10,8 +10,6 @@ import {BrowserRouter as Router, Routes, Route} from "react-router-dom"
 function App() {
   return (
     <div className="App">
-      <NavBar/>
-      <Router>
         <Routes>
           <Route exact path='/' element={<Home/>}/>
           <Route exact path='/services' element={<Services/>}/>
@@ -19,8 +17,6 @@ function App() {
           <Route exact path='/reviews' element={<Review/>}/>
           <Route exact path='/contacts' element={<Contacts/>}/>
         </Routes>
-      </Router>
-      
     </div>
   );
 }
