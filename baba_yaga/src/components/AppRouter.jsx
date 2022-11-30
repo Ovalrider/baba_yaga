@@ -4,7 +4,7 @@ import About from "../pages/About";
 import Contacts from "../pages/Contacts";
 import Review from "../pages/Review";
 import Services from "../pages/Services";
-import {Routes, Route, Link} from "react-router-dom"
+import {Routes, Route} from "react-router-dom"
 
 const AppRouter = () => {
     return(

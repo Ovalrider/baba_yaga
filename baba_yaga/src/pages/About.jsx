@@ -8,7 +8,7 @@ function About(){
                 <h1>Першокласнi послуги в токсичному i тривожному середовищi</h1>
                 <h5>МIСIЯ НАШОГО САЛОНУ ЗРОБИТИ НАШИХ КЛIEНТIВ ЩАСЛИВИМИ, А ТАКОЖ ПIДКРЕСЛИТИ IНДИВIДУАЛЬНIСТЬ</h5>
             </div>
-            <img src={babayaga} className="baba_yaga" />
+            <img src={babayaga} className="baba_yaga" alt="baba yaga"/>
 
         </div>
     )

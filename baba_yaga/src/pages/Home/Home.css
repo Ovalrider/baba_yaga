@@ -2,8 +2,8 @@
     position: absolute;
     width: 1920px;
     height: 1080px;
-    left: 0px;
-    top: 0px;
+    left: 0;
+    top: 0;
 
     background: url(../../assets/pics/home_background.jpg);
 }
@@ -12,7 +12,7 @@
     position: absolute;
     width: 710px;
     height: 931px;
-    left: 0px;
+    left: 0;
     top: 147px;
 }
 
@@ -30,16 +30,23 @@
 .main-caption {
     position: absolute;
     width: 559px;
-    height: 244px;
+    height: 344px;
     left: 596px;
-    top: 360px;
+    top: 300px;
 
-    font-family: 'Tsarevich old', serif; /* remove generic typeface when imported figma typeface */
+    font-family: 'Tsarevich', serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 50px; /* 100 for figma typeface */
+    font-size: 100px;
     line-height: 100px;
     text-align: center;
 
     color: #D7A43B;
+}
+
+@font-face {
+    font-family: 'Tsarevich';
+    src: url('/src/assets/fonts/Tsarevich.ttf');
+    font-style: normal;
+    font-weight: normal;
 }
