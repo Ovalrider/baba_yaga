@@ -1,0 +1,90 @@
+.header-menu_container{
+    padding: 20px 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 10% 0 10%;
+}
+.logo-block{
+    display: flex;
+    align-items: center;
+}
+.header-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    gap: 100px;
+}
+
+.menu-item_link{
+    color: #D7A43B;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: 'Tsarevich', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 38px;
+    transition: all 0.6s ease-out;
+}
+.menu-item_link:hover{
+    color: #c18d26;
+}
+
+.logo-image{
+    position: absolute;
+    width: 124px;
+    height: 114px;
+    left: 48px;
+    top: 0px;
+
+    background: url(../../assets/pics/nav-logo.png);
+}
+
+@font-face {
+    font-family: 'Tsarevich';
+    src: url('/src/assets/fonts/Tsarevich.ttf');
+    font-style: normal;
+    font-weight: normal;
+}
+
+.item-icon-1{
+    position: absolute;
+    width: 33px;
+    height: 37px;
+    left: 880px;
+    top: 32px;
+
+    background: url(../../assets/pics/menu-item-icon.png);
+}
+
+.item-icon-2{
+    position: absolute;
+    width: 33px;
+    height: 37px;
+    left: 1090px;
+    top: 32px;
+
+    background: url(../../assets/pics/menu-item-icon.png);
+}
+
+.item-icon-3{
+    position: absolute;
+    width: 33px;
+    height: 37px;
+    left: 1335px;
+    top: 32px;
+
+    background: url(../../assets/pics/menu-item-icon.png);
+}
+
+.item-icon-4{
+    position: absolute;
+    width: 33px;
+    height: 37px;
+    left: 1515px;
+    top: 32px;
+
+    background: url(../../assets/pics/menu-item-icon.png);
+}
