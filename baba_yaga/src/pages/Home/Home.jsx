@@ -8,7 +8,7 @@ function Home(){
         <div className="home-body">
             <NavBar />
             <h1 class="main-caption">Підкресліть свою індивідуальність та чарівність</h1>
-            <img src={babayaga} className="baba"/>
+            <img src={babayaga} className="baba" alt="baba yaga"/>
             <div class="main-rectangle"></div>
 
         </div>
