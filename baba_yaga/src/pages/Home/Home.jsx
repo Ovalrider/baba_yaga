@@ -1,7 +1,7 @@
 import React from "react";
 import './Home.css'
 import babayaga from "../../assets/pics/babajaga-home.png"
-import NavBar from "../../components/NavBar";
+import NavBar from "../../components/NavBar/NavBar";
 
 function Home(){
     return(
