@@ -1,0 +1,105 @@
+.review-body {
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+    background: url(../../assets/pics/review_background.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.add {
+    display: flex;
+    justify-content: space-between;
+}
+
+.review-caption {
+    display: flex;
+    width: 22%;
+    height: 10%;
+    margin-left: 8%;
+    margin-top: 8%;
+
+    font-family: 'Tsarevich', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 96px;
+
+    color: #9D865C;
+}
+
+
+.leshui {
+    display: flex;
+    width: 60%;
+    margin-right: 5%;
+    margin-top: 7%;
+    height: 10%;
+    justify-content: space-between;
+}
+
+.txt {
+    display: flex;
+    width: 70%;
+    height: 40%;
+    margin-left: 5%;
+    font-family: 'Tsarevich', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 48px;
+
+    color: #9D865C;
+}
+
+.cpt {
+    margin-left: 5%;
+    font-family: 'Tsarevich', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 48px;
+
+    color: #9D865C;
+}
+
+.line {
+    width: 60%;
+    height: 1%;
+    margin-left: 34.7%;
+    margin-top: 3%;
+
+    border: 2px solid #D7A43B;
+    transform: rotate(0.13deg);
+}
+
+.mavka {
+    display: flex;
+    width: 60%;
+    margin-left: 34%;
+    margin-top: 4%;
+    height: 10%;
+    justify-content: space-between;
+}
+
+.veles {
+    display: flex;
+    width: 60%;
+    margin-left: 34%;
+    margin-top: 4%;
+    height: 10%;
+    justify-content: space-between;
+}
+
+@font-face {
+    font-family: 'Tsarevich';
+    src: url('/src/assets/fonts/Tsarevich.ttf');
+    font-style: normal;
+    font-weight: normal;
+}
