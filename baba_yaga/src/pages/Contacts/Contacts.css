@@ -1,0 +1,121 @@
+.contacts-body {
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+    background: url(../../assets/pics/contacts_background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.contacts-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contacts-cpt {
+    display: flex;
+    margin-top: 10%;
+    font-family: 'Tsarevich', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 128px;
+    line-height: 128px;
+
+    color: #D7A43B;
+}
+
+
+.p-c {
+    margin-top: -1%;
+    margin-left: -25%;
+    font-family: 'Tsarevich', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 75px;
+    line-height: 75px;
+
+    color: #D7A43B;
+}
+
+.p-n {
+    margin-left: 78%;
+    margin-top: -5%;
+    width: 120%;
+    font-family: 'Tsarevich', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 75px;
+    line-height: 75px;
+
+    color: #D7A43B;
+}
+
+.m-c {
+    margin-left: 30%;
+    margin-top: -15.5%;
+    font-family: 'Tsarevich', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 75px;
+    line-height: 75px;
+
+    color: #D7A43B;
+}
+
+.m-t {
+    font-family: 'Tsarevich', serif;
+    margin-left: 30%;
+    margin-top: -5.5%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 75px;
+    line-height: 75px;
+
+    color: #D7A43B;
+}
+
+.soc-net {
+    margin-left: 0;
+    font-family: 'Tsarevich', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 45px;
+
+    color: #D7A43B;
+}
+
+.fcb-icon {
+    margin-left: -20%;
+    margin-bottom: 3%;
+    width: 55px;
+    height: 79px;
+    background: url(../../assets/pics/fcb.png);
+}
+
+.inst-icon {
+    margin-top: -6.7%;
+    margin-left: 0;
+    width: 78px;
+    height: 74px;
+    margin-bottom: 3%;
+    background: url(../../assets/pics/inst.png);
+}
+
+.twt-icon {
+    margin-top: -6.7%;
+    margin-left: 20%;
+    width: 74px;
+    height: 61px;
+    margin-bottom: 3%;
+    background: url(../../assets/pics/twt.png);
+}
+
+@font-face {
+    font-family: 'Tsarevich';
+    src: url('/src/assets/fonts/Tsarevich.ttf');
+    font-style: normal;
+    font-weight: normal;
+}

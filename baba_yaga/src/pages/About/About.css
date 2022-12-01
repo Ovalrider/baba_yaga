@@ -2,7 +2,6 @@
     display: flex;
     font-family: 'Tsarevich', serif;
     font-style: normal;
-    font-size: larger;
     font-size: 550%;
     flex-grow: 4;
 }
@@ -10,14 +9,15 @@
     font-family: 'Tsarevich', serif;
     font-style: normal;
     margin-top: 5%;
-    font-size: medium;
     font-size: 325%;
 }
 .about-body {
     padding: 0 0 0 0;
     margin: 0 0 0 0;
+    /*noinspection CssReplaceWithShorthandSafely*/
     background: url(../../assets/pics/about_background.jpg);
     background-size:cover;
+    /*noinspection CssReplaceWithShorthandSafely*/
     background-repeat: no-repeat;
     max-width: 100%;
     max-height: 100%;
