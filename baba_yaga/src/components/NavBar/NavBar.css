@@ -5,10 +5,7 @@
     justify-content: space-around;
 
 }
-.logo-block{
-    display: flex;
-    align-items: center;
-}
+
 .header-menu{
     width: 100%;
     display: flex;
