@@ -3,8 +3,7 @@
     font-family: 'Tsarevich', serif;
     font-style: normal;
     font-size: larger;
-    border: 4px solid black;
-    font-size: 100px;
+    font-size: 550%;
     flex-grow: 4;
 }
 .smaller{
@@ -12,41 +11,41 @@
     font-style: normal;
     margin-top: 5%;
     font-size: medium;
-    border: 4px solid black;
-    font-size: 50px;
+    font-size: 325%;
 }
 .about-body {
     padding: 0,0,0,0;
     margin: 0,0,0,0;
     background: url(../../assets/pics/about_background.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    max-height: 100%;
 }
 .about-div{
     width: 99%;
     display: flex;
-    margin-right: 3%;
+    margin-right: 12%;
     flex-direction: row;
     flex-shrink: 2;
     justify-content: flex-end;
     align-items: center;
-    border: 5px solid black;
 }
 .text-div{
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 4px solid black;
 }
 .baba-a {
     width: 36%;
-    height: 86%;
-    display: block;
-    border: 4px solid black;
+    height: 50%;
+    display: flex;
+    margin-bottom: 0%;
 }
 
 .about-text {
-    width:  85%;
-    margin-right: 9%;
-    
+    width:  60%;
+    margin-right: 4%;
     text-align: center;
     color: #D7A43B;
 }
@@ -56,4 +55,13 @@
     src: url('/src/assets/fonts/Tsarevich.ttf');
     font-style: normal;
     font-weight: normal;
+}
+@media only screen and (max-width: 800px) {
+    .about-div {
+      flex-direction: column;
+      align-items: center;
+    }
+    .baba-a{
+        display: none;
+    }
 }
