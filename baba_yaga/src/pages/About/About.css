@@ -1,0 +1,50 @@
+h1{
+    font-family: 'Tsarevich', serif;
+    font-style: normal;
+    font-size: larger;
+}
+h5{
+    font-family: 'Tsarevich', serif;
+    font-style: normal;
+    margin-top: 5%;
+    font-size: medium;
+}
+.about-body {
+    padding: 0,0,0,0;
+    margin: 0,0,0,0;
+    left: 0;
+    top: 0;
+    background: url(../../assets/pics/about_background.jpg);
+}
+.about-div{
+    width: 65%;
+    margin-left: 15%;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 2;
+    justify-content: flex-end;
+    align-items: flex-end;
+    border: 5px solid black;
+}
+
+.baba {
+    width: 710px;
+    height: 931px;
+    left: 0;
+    top: 147px;
+}
+
+.about-text {
+    width:  50%;
+    margin-right: 12%;
+    font-size: 100px;
+    text-align: center;
+    color: #D7A43B;
+}
+
+@font-face {
+    font-family: 'Tsarevich';
+    src: url('/src/assets/fonts/Tsarevich.ttf');
+    font-style: normal;
+    font-weight: normal;
+}
