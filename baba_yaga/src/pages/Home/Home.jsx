@@ -7,10 +7,13 @@ function Home(){
     return(
         <div className="home-body">
             <NavBar />
-            <h1 class="main-caption">Підкресліть свою індивідуальність та чарівність</h1>
-            <img src={babayaga} className="baba" alt="baba yaga"/>
-            <div class="main-rectangle"></div>
-
+            
+            <div className="home-div">
+                <img src={babayaga} className="baba" alt="baba yaga"/>
+                <div className="text-main">
+                 <p class="main-caption big-m">Підкресліть свою індивідуальність та чарівність</p>
+                </div>
+            </div>
         </div>
     )
 }

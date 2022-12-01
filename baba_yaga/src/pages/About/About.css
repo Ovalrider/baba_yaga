@@ -1,4 +1,4 @@
-.big{
+.big-a{
     display: flex;
     font-family: 'Tsarevich', serif;
     font-style: normal;
@@ -6,7 +6,7 @@
     font-size: 550%;
     flex-grow: 4;
 }
-.smaller{
+.smaller-a{
     font-family: 'Tsarevich', serif;
     font-style: normal;
     margin-top: 5%;
@@ -37,8 +37,8 @@
     align-items: center;
 }
 .baba-a {
-    width: 36%;
-    height: 50%;
+    width: 32%;
+    height: 954px;
     display: flex;
     margin-bottom: 0%;
 }
@@ -56,12 +56,19 @@
     font-style: normal;
     font-weight: normal;
 }
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1200px) {
     .about-div {
       flex-direction: column;
       align-items: center;
     }
     .baba-a{
         display: none;
+    }
+    .big-a{
+
+        font-size: 350%;
+    }
+    .smaller-a{
+        font-size: 225%;
     }
 }
