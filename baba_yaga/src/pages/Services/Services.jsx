@@ -49,6 +49,7 @@ function Services(){
                 <div className="services-title">
                     <h1>НАШI ПОСЛУГИ</h1>
                 </div>
+                <hr color="#D7A43B" style={{width: "90%", marginTop: "45px", height: "1px"}}/>
                 <div className="services-flex_container">
                     {cards.map((card)=>(
                         <div>
