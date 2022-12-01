@@ -8,10 +8,14 @@ function About(){
         <div className="about-body">
             <NavBar/>
             <div className="about-div">
-                <h1 className="about-text">Першокласнi послуги в токсичному i тривожному середовищi</h1>
-                <h5 className="about-text">МIСIЯ НАШОГО САЛОНУ ЗРОБИТИ НАШИХ КЛIEНТIВ ЩАСЛИВИМИ, А ТАКОЖ ПIДКРЕСЛИТИ IНДИВIДУАЛЬНIСТЬ</h5>
+                <img src={babayaga} className="baba-a" alt="baba yaga"/>
+                <div className="text-div">
+                    <p className="about-text big">Першокласнi послуги в токсичному i тривожному середовищi</p>
+                    <p className="about-text smaller">МIСIЯ НАШОГО САЛОНУ ЗРОБИТИ НАШИХ КЛIEНТIВ ЩАСЛИВИМИ, А ТАКОЖ ПIДКРЕСЛИТИ IНДИВIДУАЛЬНIСТЬ</p>
+                </div>
+                
             </div>
-            <img src={babayaga} className="baba" alt="baba yaga"/>
+            
 
         </div>
     )
