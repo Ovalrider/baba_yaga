@@ -7,11 +7,10 @@ function Home(){
     return(
         <div className="home-body">
             <NavBar />
-            
             <div className="home-div">
                 <img src={babayaga} className="baba" alt="baba yaga"/>
                 <div className="text-main">
-                 <p class="main-caption big-m">Підкресліть свою індивідуальність та чарівність</p>
+                 <p className="main-caption big-m">Підкресліть свою індивідуальність та чарівність</p>
                 </div>
             </div>
         </div>

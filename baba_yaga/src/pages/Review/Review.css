@@ -1,8 +1,10 @@
 .review-body {
     padding: 0 0 0 0;
     margin: 0 0 0 0;
+    /*noinspection CssReplaceWithShorthandSafely*/
     background: url(../../assets/pics/review_background.jpg);
     background-size:cover;
+    /*noinspection CssReplaceWithShorthandSafely*/
     background-repeat: no-repeat;
     max-width: 100%;
     max-height: 100%;
