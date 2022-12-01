@@ -39,7 +39,8 @@
     transition: all 0.6s ease-out;
 }
 .menu-item_link:hover{
-    color: #27476a;
+    color: #d59920;
+    border-bottom: 1px solid #d59920;
 }
 
 @font-face {

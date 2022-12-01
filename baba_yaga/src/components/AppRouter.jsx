@@ -3,7 +3,7 @@ import Home from "../pages/Home/Home";
 import About from "../pages/About/About";
 import Contacts from "../pages/Contacts/Contacts";
 import Review from "../pages/Review/Review";
-import Services from "../pages/Services";
+import Services from "../pages/Services/Services";
 import {Routes, Route} from "react-router-dom"
 
 const AppRouter = () => {
