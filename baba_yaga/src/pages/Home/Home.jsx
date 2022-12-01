@@ -1,16 +1,19 @@
 import React from "react";
 import './Home.css'
 import babayaga from "../../assets/pics/babajaga-home.png"
-import NavBar from "../../components/NavBar";
+import NavBar from "../../components/NavBar/NavBar";
 
 function Home(){
     return(
         <div className="home-body">
             <NavBar />
-            <h1 class="main-caption">Підкресліть свою індивідуальність та чарівність</h1>
-            <img src={babayaga} className="baba"/>
-            <div class="main-rectangle"></div>
-
+            
+            <div className="home-div">
+                <img src={babayaga} className="baba" alt="baba yaga"/>
+                <div className="text-main">
+                 <p class="main-caption big-m">Підкресліть свою індивідуальність та чарівність</p>
+                </div>
+            </div>
         </div>
     )
 }

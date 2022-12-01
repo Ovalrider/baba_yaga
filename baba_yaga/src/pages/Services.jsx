@@ -5,10 +5,12 @@ import p3 from "../assets/pics/services_3.jpg"
 import p4 from "../assets/pics/services_4.jpg"
 import p5 from "../assets/pics/services_5.jpg"
 import p6 from "../assets/pics/services_6.jpg"
+import NavBar from "../components/NavBar/NavBar";
 //задній фон заблюрити та зробити горизонтальну лінію після Наші послуги
 function Services(){
     return(
         <div className="Services_body">
+            <NavBar/>
             <div className="big_yellow_text">
                 <h1>НАШI ПОСЛУГИ</h1>
             </div>

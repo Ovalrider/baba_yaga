@@ -1,11 +1,13 @@
 import React from "react";
-import pic1 from "../assets/pics/review_1.jpg"
-import pic2 from "../assets/pics/review_2.jpg"
-import pic3 from "../assets/pics/review_3.jpg"
+import pic1 from "../../assets/pics/review_1.jpg"
+import pic2 from "../../assets/pics/review_2.jpg"
+import pic3 from "../../assets/pics/review_3.jpg"
+import NavBar from "../../components/NavBar/NavBar";
 //додати горизантальні лінії між дівами flex container
 function Review(){
     return(
         <div className="review_body">
+            <NavBar/>
             <div className="big_lightbrown_text">
             <h1>Підкресліть свою індивідуальність та чарівність</h1>
             </div>
