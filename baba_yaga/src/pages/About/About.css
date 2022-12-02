@@ -62,15 +62,20 @@
       flex-direction: column;
       align-items: center;
     }
+    .about-text{
+        margin-right: 0;
+    }
     .baba-a{
         display: none;
     }
     .big-a{
-
         font-size: 350%;
     }
     .smaller-a{
         margin-right: 0;
         font-size: 225%;
+    }
+    .text-div{
+        margin: 70px 0 30px 0;
     }
 }

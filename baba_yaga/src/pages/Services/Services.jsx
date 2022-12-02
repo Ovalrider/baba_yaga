@@ -52,7 +52,7 @@ function Services(){
                 <hr color="#D7A43B" style={{width: "90%", marginTop: "45px", height: "1px"}}/>
                 <div className="services-flex_container">
                     {cards.map((card, index)=>(
-                    <div key={index}>
+                    <div key={index} style={{display:"flex", flexDirection: "column", alignItems: "center"}}>
                         <div className="flex_card" style={{backgroundImage: `url(${card.image})`}}>
                             {/* <img src={p1} alt="BABA YAGA" /> */}
                             <p className="item-price">від {card.price}$</p>

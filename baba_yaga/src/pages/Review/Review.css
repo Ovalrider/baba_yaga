@@ -49,7 +49,7 @@
 
 .txt {
     display: flex;
-    width: 70%;
+    /* width: 70%; */
     margin-left: 5%;
     font-family: 'Tsarevich', serif;
     font-style: normal;
@@ -111,7 +111,7 @@
 }
 
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 900px) {
     .add{
         flex-direction: column;
     }
@@ -129,9 +129,9 @@
         justify-content: center;
     }
 
-    .txt{
+    /* .txt{
         width: 100%;
-    }
+    } */
 
     .veles{
         width: 100%;
@@ -143,8 +143,9 @@
     .review-caption{
         align-self: center;
         margin: 30px 0 10px 0;
-        width: 100%;
+        display: block;
         text-align: center;
+        width: 100%;
     }
 }
 
