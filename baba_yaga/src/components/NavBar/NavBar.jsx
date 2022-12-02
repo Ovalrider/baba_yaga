@@ -22,7 +22,7 @@ function NavBar(){
                 </li>
                 <li className="menu-item">
                     <div ><img src={logosm} alt="logo" className="item-icon"/></div>
-                    <Link className="menu-item_link" to="/reviews">Відгуки</Link>
+                    <Link className="menu-item_link" to="/reviews">Вiдгуки</Link>
                 </li>
                 <li className="menu-item">
                     <div ><img src={logosm} alt="logo" className="item-icon"/></div>
