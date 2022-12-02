@@ -3,8 +3,9 @@ import {Link} from "react-router-dom"
 import "../NavBar/NavBar.css"
 import logosm from "../../assets/pics/menu-item-icon.png"
 import logomain from "../../assets/pics/nav-logo.png"
-
+import { useState } from "react";
 function NavBar(){
+    const [isBurger, setIsBurger] = useState(false);
     return(
         <div className="header-menu_container">
             <ul className="header-menu">

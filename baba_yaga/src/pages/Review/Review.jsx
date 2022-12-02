@@ -13,7 +13,7 @@ function Review(){
                 <div className="add">
                     <h1 className="review-caption">ВIДГУКИ НАШИХ КЛIЕНТIВ</h1>
                     <div className="leshui">
-                        <img src={pic1} alt="LISOVYK" />
+                        <img src={pic1} alt="LISOVYK" className="card-image"/>
                         <div className="inner-flex">
                             <p className="txt">"Огидно, жахливо I небезпечно. I це ще не всI найкращI якостI салону Баба-ЯгИ!"</p>
                             <p className="cpt">ЛIСОВИК</p>
@@ -24,7 +24,7 @@ function Review(){
                 <div className="line"></div>
 
                 <div className="mavka">
-                    <img src={pic2} alt="MAVKA" />
+                    <img src={pic2} alt="MAVKA" className="card-image"/>
                     <div className="inner-flex-m">
                         <p className="txt">"Кожного разу, коли менi сумно, я купую тут новi косметичнi засоби."</p>
                         <p className="cpt">мавка лiсова</p>
@@ -34,7 +34,7 @@ function Review(){
                 <div className="line"></div>
 
                 <div className="veles">
-                    <img src={pic3} alt="BOG VELES" />
+                    <img src={pic3} alt="BOG VELES" className="card-image"/>
                     <div className="inner-flex-m">
                         <p className="txt">"Хочу висловити щиру подяку всьому персоналу салону. Зачiска, яку я там зробив, одна з найкращих у моeму життi."</p>
                         <p className="cpt">бог велес</p>

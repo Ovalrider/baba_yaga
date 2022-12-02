@@ -63,29 +63,34 @@
     align-items: center;
     justify-content: center;
     gap: 25px;
+    margin-top: 15px;
 }
 
 .contacts-social_icon_fb {
-    width: 55px;
-    height: 75px;
+    width: 45px;
+    height: 55px;
     background: url(../../assets/pics/fcb.png);
     cursor: pointer;
+    background-size:contain;
 }
 
 .contacts-social_icon_inst {
-    width: 78px;
-    height: 75px;
+    width: 62px;
+    height: 55px;
     margin-bottom: 3%;
     background: url(../../assets/pics/inst.png);
     cursor: pointer;
+    background-size:contain;
 }
 
 .contacts-social_icon_twt {
-    width: 74px;
-    height: 61px;
+    width: 60px;
+    height: 41px;
     margin-bottom: 3%;
     background: url(../../assets/pics/twt.png);
     cursor: pointer;
+    background-size:contain;
+    background-repeat: no-repeat;
 }
 
 @font-face {

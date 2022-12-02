@@ -13,6 +13,7 @@
 .flex-container {
     display: flex;
     flex-direction: column;
+    padding: 10px;
 }
 
 .add {
@@ -49,7 +50,6 @@
 .txt {
     display: flex;
     width: 70%;
-    height: 40%;
     margin-left: 5%;
     font-family: 'Tsarevich', serif;
     font-style: normal;
@@ -99,9 +99,60 @@
     justify-content: space-between;
 }
 
+.card-image{
+    height: 249px;
+}
+
 @font-face {
     font-family: 'Tsarevich';
     src: url('/src/assets/fonts/Tsarevich.ttf');
     font-style: normal;
     font-weight: normal;
+}
+
+
+@media only screen and (max-width: 767px) {
+    .add{
+        flex-direction: column;
+    }
+
+    .mavka{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-left: 0;
+    }
+
+    .leshui{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .txt{
+        width: 100%;
+    }
+
+    .veles{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-left: 0;
+    }
+
+    .review-caption{
+        align-self: center;
+        margin: 30px 0 10px 0;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 426px) {
+    .txt,.cpt{
+        font-size: 26px;
+    }
+    .card-image{
+    height: 160px;
+}
 }
