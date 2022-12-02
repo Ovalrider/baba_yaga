@@ -10,7 +10,7 @@ function Home(){
             <div className="home-div">
                 <img src={babayaga} className="baba" alt="baba yaga"/>
                 <div className="text-main">
-                 <p className="main-caption big-m">Підкресліть свою індивідуальність та чарівність</p>
+                 <p className="main-caption big-m">Пiдкреслiть свою iндивiдуальнiсть та чарiвнiсть</p>
                 </div>
             </div>
         </div>
